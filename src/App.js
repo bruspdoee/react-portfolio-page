@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="bigContent">
       <Layout
         style={{
           background:
