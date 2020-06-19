@@ -2,6 +2,15 @@ h1 {
   color: white;
 }
 
+.headerColor {
+  background-color: black;
+}
+
+.landing-grid {
+  background: url(https://i.pinimg.com/originals/68/a8/41/68a8410cfda32bd6b7f40e9c77b06ca5.jpg)
+    center / cover;
+}
+
 .landing-grid {
   text-align: center;
   position: fixed;
@@ -58,4 +67,8 @@ h1 {
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
 }

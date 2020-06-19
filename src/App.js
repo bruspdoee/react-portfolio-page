@@ -7,13 +7,8 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <div className="bigContent">
-      <Layout
-        style={{
-          background:
-            "url(https://i.pinimg.com/originals/68/a8/41/68a8410cfda32bd6b7f40e9c77b06ca5.jpg) center / cover",
-        }}
-      >
-        <Header transparent title="Brus Palaj" style={{ color: "white" }}>
+      <Layout>
+        <Header title="Brus Palaj" className="headerColor">
           <Navigation>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
