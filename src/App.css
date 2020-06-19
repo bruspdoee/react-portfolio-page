@@ -96,3 +96,14 @@ h1 {
 .contact-grid i {
   font-size: 66px;
 }
+
+.mdl-layout__header-row {
+  background: black;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: inherit;
+  background: black;
+}
