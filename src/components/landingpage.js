@@ -11,11 +11,11 @@ class Landing extends Component {
             <h1>Brus Palaj</h1>
             <h2>Full Stack Web Developer</h2>
 
-            <hr />
+            {/* <hr /> */}
 
-            <p>
+            {/* <p>
               HTML | CSS | JavaScript | React | Node | Express | MySQL | MongoDB
-            </p>
+            </p> */}
 
             <div className="social-links">
               {/* LinkedIn */}
