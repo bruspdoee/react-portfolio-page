@@ -6,7 +6,11 @@ function About() {
     <section className="about">
       {/* <h1 className="about-h1"> About </h1> */}
       <div className="about-img">
-        <img className="about-img" src="./unnamed-1.png"></img>
+        <img
+          className="about-img"
+          src="./unnamed-1.png"
+          alt="pic of ugly guy"
+        ></img>
       </div>
       <div className="about-text">
         <p>
