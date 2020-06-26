@@ -5,6 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 function Projects() {
   return (
     <div className="projects">
+      <h1 className="proj-header">My Recent Work</h1>
       {/*  Beast Mode Carousel   */}
       <Carousel className="beastmode">
         <Carousel.Item>
