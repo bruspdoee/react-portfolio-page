@@ -1,11 +1,10 @@
-body:before {
+.intro {
   content: "";
   display: block;
-  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   z-index: -10;
   background: url(https://wallpapercave.com/wp/wp2905361.jpg) no-repeat center
     center;
@@ -15,10 +14,22 @@ body:before {
   background-size: cover;
 }
 
-.intro-div {
-  text-align: left;
+@media only screen and (max-width: 568px) {
+  .intro-text {
+    padding-top: 420px;
+  }
 }
 
+@media only screen and (max-width: 667px) {
+  .intro-text {
+    padding-top: 510px;
+  }
+}
+
+.intro-div {
+  text-align: left;
+  padding-bottom: 20px;
+}
 .intro-h1 {
   color: white;
   padding-left: 20px;
@@ -35,7 +46,5 @@ body:before {
 
 .intro-text {
   color: white;
-  padding-top: 600px;
   padding-left: 20px;
-  padding-bottom: 80px;
 }

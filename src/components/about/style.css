@@ -4,18 +4,27 @@
   font-size: 18px;
   font-weight: 300;
   opacity: 80%;
+  height: 100vh;
   padding-top: 30px;
+  background: url(https://www.wallpaperflare.com/static/118/697/306/light-bulb-minimalism-photo-displays-wallpaper-preview.jpg)
+    center/cover;
 }
 
 .about-text {
   padding-top: 40px;
-  margin-right: 60px;
   color: white;
   font-size: 18px;
   font-weight: 300;
   opacity: 80%;
+  margin: 0 auto;
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.about-img-div {
+  text-align: center;
 }
 
 .about-img {

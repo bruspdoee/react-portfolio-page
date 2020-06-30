@@ -9,7 +9,7 @@ function Intro() {
         <h2 className="intro-h2"> Full Stack Developer</h2>
       </div>
       <div className="intro-text">
-        <p> Making Technology Comprehensible</p>
+        <p className="intro-p"> Making Technology Comprehensible</p>
       </div>
     </section>
   );
