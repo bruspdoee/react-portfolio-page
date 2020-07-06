@@ -8,11 +8,11 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div>
-      <Intro />
-      <About />
-      <Projects />
-      <Footer />;
+    <div className="grid">
+      <Intro className="intro" />
+      <About className="about" />
+      <Projects className="projects" />
+      <Footer className="footer" />
     </div>
   );
 }

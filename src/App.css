@@ -1,3 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "intro "
+    "about "
+    "projects "
+    "footer ";
+}
+
+.intro {
+  grid-area: intro;
+}
+
+.about {
+  grid-area: about;
+}
+.projects {
+  grid-area: projects;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+@media screen and (max-width: 736px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "intro intro"
+      "about"
+      "projects projects"
+      "footer footer";
+  }
+}
+
 /* -------------------Intro Section-------------------------------- */
 
 .intro {
@@ -5,7 +49,7 @@
   display: block;
   left: 0;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 100vh;
   z-index: -10;
   background: url(https://wallpapercave.com/wp/wp2905361.jpg) no-repeat center
@@ -16,27 +60,19 @@
   background-size: cover;
 }
 
-@media only screen and (max-width: 568px) {
-  .intro-text {
-    padding-top: 420px;
-  }
-}
-
-@media only screen and (max-width: 667px) {
-  .intro-text {
-    padding-top: 510px;
-  }
-}
-
 .intro-div {
   text-align: left;
   padding-bottom: 20px;
 }
+
 .intro-h1 {
   color: white;
   padding-left: 20px;
   font-weight: 300;
   font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .intro-h2 {
@@ -44,11 +80,18 @@
   padding-left: 20px;
   font-weight: 300;
   font-size: 20px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
 }
 
 .intro-text {
+  font-size: 25px;
   color: white;
   padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* --------------About Section------------------- */
@@ -58,6 +101,7 @@
   font-size: 18px;
   font-weight: 300;
   opacity: 80%;
+  height: 140vh;
   padding-top: 30px;
   background: url(https://www.wallpaperflare.com/static/118/697/306/light-bulb-minimalism-photo-displays-wallpaper-preview.jpg)
     center/cover;
@@ -73,7 +117,7 @@
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-img-div {
@@ -90,14 +134,14 @@
 /* -----------------------------Project Section------------------------------ */
 
 .beastmode {
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 400px;
+  max-width: 400px;
   margin-top: 30px;
   margin: 0 auto;
 }
 
 .projects {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: black;
 }
 
@@ -116,7 +160,7 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .proj-title {
