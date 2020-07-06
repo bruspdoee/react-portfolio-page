@@ -5,13 +5,13 @@ function About() {
   return (
     <section className="about">
       {/* <h1 className="about-h1"> About </h1> */}
-      <div className="about-img-div">
+      {/* <div className="about-img-div">
         <img
           className="about-img"
           src="./unnamed-1.png"
           alt="pic of ugly guy"
         ></img>
-      </div>
+      </div> */}
       <div className="about-text">
         <p>
           Meticulous and multidimensional Full Stack Web Developer with a focus

@@ -94,17 +94,22 @@
   left: 0;
 }
 
+@media screen and (max-width: 736px) {
+  .intro-text {
+    font-size: 15px;
+  }
+}
+
 /* --------------About Section------------------- */
 .about {
   background-color: black;
   color: white;
   font-size: 18px;
   font-weight: 300;
-  opacity: 80%;
-  height: 140vh;
+  /* opacity: 80%; */
+  height: 100%;
   padding-top: 30px;
-  background: url(https://www.wallpaperflare.com/static/118/697/306/light-bulb-minimalism-photo-displays-wallpaper-preview.jpg)
-    center/cover;
+  background: black;
 }
 
 .about-text {
@@ -120,15 +125,39 @@
   text-align: left;
 }
 
-.about-img-div {
-  text-align: center;
+/* Other IPhones */
+
+@media screen and (min-width: 375px) {
+  .about-text {
+    font-size: 12px;
+    padding-right: 100px;
+  }
 }
 
-.about-img {
-  max-height: 15em;
-  text-align: left;
-  border-radius: 50%;
-  padding-left: 20px;
+/* IPhone Plus */
+@media screen and (min-width: 414px) {
+  .about-text {
+    font-size: 14px;
+    padding-right: 100px;
+  }
+}
+
+/* IPad */
+
+@media screen and (min-width: 768px) {
+  .about-text {
+    font-size: 20px;
+    padding-right: 400px;
+  }
+}
+
+/* IPad Pro */
+
+@media screen and (min-width: 1024px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 600px;
+  }
 }
 
 /* -----------------------------Project Section------------------------------ */
@@ -148,11 +177,6 @@
 .fab {
   height: 100px;
   width: 100px;
-}
-
-.social-icons:hover {
-  border: 5px solid black;
-  transition: all 0.5s ease;
 }
 
 .project-info {
@@ -177,6 +201,62 @@
   font-size: 40px;
   text-align: center;
   padding-bottom: 30px;
+}
+
+.icon-row {
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) {
+  .beastmode {
+    max-height: 200px;
+    max-width: 250px;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+}
+
+/* Other IPhones */
+
+@media screen and (min-width: 375px) {
+  .beastmode {
+    max-height: 250px;
+    max-width: 250px;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+}
+
+/* IPhone Plus */
+@media screen and (min-width: 414px) {
+  .beastmode {
+    max-height: 300px;
+    max-width: 300px;
+    margin-top: 30px;
+    margin: 0 auto;
+  }
+}
+
+/* IPad */
+
+@media screen and (min-width: 768px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .beastmode {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+/* IPad Pro */
+
+@media screen and (min-width: 1024px) {
+  .beastmode {
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 
 /* ----------------------Footer Section---------------------------- */
