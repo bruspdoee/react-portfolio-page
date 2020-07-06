@@ -1,5 +1,5 @@
 import React from "react";
-// import "./App.css";
+import "./App.css";
 // import Loading from "./loading.js";
 import Intro from "./components/intro";
 import About from "./components/about";
