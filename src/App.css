@@ -440,6 +440,64 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
+/* -------------------Skills Section--------------*/
+
+.gridlock {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  display: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  background-color: black;
+}
+.grid-iteM {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.grid-iteM:after {
+  border-bottom: 3px solid green;
+  content: "";
+  display: block;
+  height: 10px;
+  margin: 0 auto;
+  width: 50px;
+}
+.skill-logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.skill-logo:hover {
+  background: rgb(79, 186, 111);
+  opacity: 80%;
+}
+
+.skill-title {
+  color: white;
+}
+
+.skills-h1 {
+  color: white;
+  text-align: left;
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.skills-div {
+  background-color: black;
+  color: white;
+}
+
 /* Other IPhones */
 
 @media screen and (min-width: 375px) {
@@ -447,6 +505,14 @@ html {
     font-size: 12px;
     padding-right: 100px;
     padding-left: 30px;
+  }
+  .up-button {
+    height: 40px;
+    width: 40px;
+  }
+  .skill-logo {
+    height: 100px;
+    width: 100px;
   }
 }
 
@@ -456,6 +522,10 @@ html {
     font-size: 14px;
     padding-right: 100px;
     padding-left: 30px;
+  }
+  .up-button {
+    height: 40px;
+    width: 40px;
   }
 }
 
@@ -483,6 +553,9 @@ html {
   .title-h1 {
     font-size: 100px;
   }
+  .skills-h1 {
+    font-size: 100px;
+  }
 }
 
 /* Laptop*/
@@ -499,6 +572,9 @@ html {
   .title-h1 {
     font-size: 100px;
   }
+  .skills-h1 {
+    font-size: 100px;
+  }
 }
 
 @media screen and (min-width: 1304px) {
@@ -511,6 +587,9 @@ html {
     font-size: 100px;
   }
   .title-h1 {
+    font-size: 100px;
+  }
+  .skills-h1 {
     font-size: 100px;
   }
 }
@@ -526,6 +605,9 @@ html {
   }
 
   .title-h1 {
+    font-size: 100px;
+  }
+  .skills-h1 {
     font-size: 100px;
   }
 }
@@ -545,6 +627,9 @@ html {
   .title-h1 {
     font-size: 100px;
   }
+  .skills-h1 {
+    font-size: 100px;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -557,6 +642,9 @@ html {
     font-size: 100px;
   }
   .title-h1 {
+    font-size: 100px;
+  }
+  .skills-h1 {
     font-size: 100px;
   }
 }
