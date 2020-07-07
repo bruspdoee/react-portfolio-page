@@ -263,107 +263,6 @@ html {
   padding-bottom: 60px;
 }
 
-/* Other IPhones */
-
-@media screen and (min-width: 375px) {
-  .about-text {
-    font-size: 12px;
-    padding-right: 100px;
-    padding-left: 30px;
-  }
-}
-
-/* IPhone Plus */
-@media screen and (min-width: 414px) {
-  .about-text {
-    font-size: 14px;
-    padding-right: 100px;
-    padding-left: 30px;
-  }
-}
-
-/* IPad */
-
-@media screen and (min-width: 768px) {
-  .about-text {
-    font-size: 20px;
-    padding-right: 400px;
-    padding-left: 30px;
-  }
-}
-
-/* IPad Pro */
-
-@media screen and (min-width: 1024px) {
-  .about-text {
-    font-size: 25px;
-    padding-right: 600px;
-    padding-left: 30px;
-  }
-  .about-h1 {
-    font-size: 100px;
-  }
-}
-
-/* Laptop*/
-
-@media screen and (min-width: 1366px) {
-  .about-text {
-    font-size: 25px;
-    padding-right: 900px;
-    padding-left: 30px;
-  }
-  .about-h1 {
-    font-size: 100px;
-  }
-}
-
-@media screen and (min-width: 1304px) {
-  .about-text {
-    font-size: 25px;
-    padding-right: 900px;
-    padding-left: 30px;
-  }
-  .about-h1 {
-    font-size: 100px;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .about-text {
-    font-size: 25px;
-    padding-right: 1100px;
-    padding-left: 30px;
-  }
-  .about-h1 {
-    font-size: 100px;
-  }
-}
-
-/* Laptop*/
-
-@media screen and (min-width: 1920px) {
-  .about-text {
-    font-size: 30px;
-    padding-right: 1400px;
-    padding-left: 30px;
-  }
-  .about-h1 {
-    font-size: 100px;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  .about-text {
-    font-size: 30px;
-    padding-right: 1800px;
-    padding-left: 30px;
-  }
-  .about-h1 {
-    font-size: 100px;
-  }
-}
-
 /* -----------------------------Project Section------------------------------ */
 
 .beastmode {
@@ -523,6 +422,7 @@ html {
   -moz-transition-duration: 1s;
   transition-property: height, width;
   transition-duration: 1s;
+  fill: green;
 }
 
 .row {
@@ -538,4 +438,125 @@ html {
   padding-top: 25px;
   opacity: 70%;
   font-family: "Libre Baskerville", serif;
+}
+
+/* Other IPhones */
+
+@media screen and (min-width: 375px) {
+  .about-text {
+    font-size: 12px;
+    padding-right: 100px;
+    padding-left: 30px;
+  }
+}
+
+/* IPhone Plus */
+@media screen and (min-width: 414px) {
+  .about-text {
+    font-size: 14px;
+    padding-right: 100px;
+    padding-left: 30px;
+  }
+}
+
+/* IPad */
+
+@media screen and (min-width: 768px) {
+  .about-text {
+    font-size: 20px;
+    padding-right: 400px;
+    padding-left: 30px;
+  }
+}
+
+/* IPad Pro */
+
+@media screen and (min-width: 1024px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 600px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+  .title-h1 {
+    font-size: 100px;
+  }
+}
+
+/* Laptop*/
+
+@media screen and (min-width: 1366px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 900px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+  .title-h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 1304px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 900px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+  .title-h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 1100px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+
+  .title-h1 {
+    font-size: 100px;
+  }
+}
+
+/* Laptop*/
+
+@media screen and (min-width: 1920px) {
+  .about-text {
+    font-size: 30px;
+    padding-right: 1400px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+
+  .title-h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .about-text {
+    font-size: 30px;
+    padding-right: 1800px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+  .title-h1 {
+    font-size: 100px;
+  }
 }
