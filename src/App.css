@@ -119,8 +119,10 @@
   font-weight: 300;
   /* opacity: 80%; */
   height: 100%;
+  width: 100%;
   padding-top: 30px;
   background-size: cover;
+  padding-bottom: 60px;
 }
 
 /* Other IPhones */
@@ -177,7 +179,15 @@
 @media screen and (min-width: 1920px) {
   .about-text {
     font-size: 30px;
-    padding-right: 1800px;
+    padding-right: 1400px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .about-text {
+    font-size: 30px;
+    padding-right: 1500px;
     padding-left: 30px;
   }
 }
@@ -193,6 +203,7 @@
 
 .project-div {
   height: 100%;
+  width: 100%;
   background-color: black;
   padding-top: 50px;
 }
