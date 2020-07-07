@@ -52,7 +52,7 @@
   /* width: 100%; */
   height: 100vh;
   z-index: -10;
-  background: url(https://wallpapercave.com/wp/wp2905361.jpg) no-repeat center
+  background: url(https://wallpaperaccess.com/full/439712.jpg) no-repeat center
     center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -73,6 +73,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  font-family: "Libre Baskerville", serif;
 }
 
 .intro-h2 {
@@ -83,6 +84,7 @@
   position: absolute;
   top: 50px;
   left: 0px;
+  font-family: "Libre Baskerville", serif;
 }
 
 .intro-text {
@@ -92,6 +94,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  font-family: "Libre Baskerville", serif;
 }
 
 @media screen and (max-width: 736px) {
@@ -101,28 +104,23 @@
 }
 
 /* --------------About Section------------------- */
+
+.about-h1 {
+  padding-left: 25px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  padding-bottom: 60px;
+}
 .about {
-  background-color: black;
+  background: url(https://www.lefthudson.com/wp-content/uploads/2019/11/cube-wallpapers-best-of-cube-wallpapers-ideas-of-cube-wallpapers.jpg)
+    no-repeat center center;
   color: white;
   font-size: 18px;
   font-weight: 300;
   /* opacity: 80%; */
   height: 100%;
   padding-top: 30px;
-  background: black;
-}
-
-.about-text {
-  padding-top: 40px;
-  color: white;
-  font-size: 18px;
-  font-weight: 300;
-  opacity: 80%;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: left;
+  background-size: cover;
 }
 
 /* Other IPhones */
@@ -131,6 +129,7 @@
   .about-text {
     font-size: 12px;
     padding-right: 100px;
+    padding-left: 30px;
   }
 }
 
@@ -139,6 +138,7 @@
   .about-text {
     font-size: 14px;
     padding-right: 100px;
+    padding-left: 30px;
   }
 }
 
@@ -148,6 +148,7 @@
   .about-text {
     font-size: 20px;
     padding-right: 400px;
+    padding-left: 30px;
   }
 }
 
@@ -157,6 +158,27 @@
   .about-text {
     font-size: 25px;
     padding-right: 600px;
+    padding-left: 30px;
+  }
+}
+
+/* Laptop*/
+
+@media screen and (min-width: 1366px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 900px;
+    padding-left: 30px;
+  }
+}
+
+/* Laptop*/
+
+@media screen and (min-width: 1920px) {
+  .about-text {
+    font-size: 30px;
+    padding-right: 1800px;
+    padding-left: 30px;
   }
 }
 
@@ -169,11 +191,19 @@
   margin: 0 auto;
 }
 
-.projects {
-  /* margin: 0 auto; */
+.project-div {
+  height: 100%;
   background-color: black;
+  padding-top: 50px;
 }
 
+.title {
+  padding-left: 25px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  color: white;
+  padding-bottom: 60px;
+}
 .fab {
   height: 100px;
   width: 100px;
@@ -192,6 +222,7 @@
   font-weight: 300;
   font-size: 30px;
   text-align: center;
+  font-family: "Libre Baskerville", serif;
 }
 
 .proj-header {
@@ -201,10 +232,22 @@
   font-size: 40px;
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.project-desc {
+  color: white;
 }
 
 .icon-row {
   justify-content: space-between;
+}
+
+.social-icon {
+  height: 50px;
+  width: 50px;
+  padding-right: 20px;
+  opacity: 70%;
 }
 
 @media screen and (min-width: 320px) {
@@ -259,6 +302,22 @@
   }
 }
 
+@media screen and (min-width: 1366px) {
+  .beastmode {
+    max-width: 600px;
+    max-height: 600px;
+  }
+}
+
+/* Laptop*/
+
+@media screen and (min-width: 1920px) {
+  .beastmode {
+    max-width: 800px;
+    max-height: 800px;
+  }
+}
+
 /* ----------------------Footer Section---------------------------- */
 
 .main-footer {
@@ -266,8 +325,9 @@
 }
 
 .social-icons {
-  height: 40px;
-  width: 40px;
+  height: 65px;
+  width: 65px;
+  padding-right: 20px;
   opacity: 70%;
 }
 
@@ -283,6 +343,7 @@
   text-align: center;
   padding-top: 25px;
   opacity: 70%;
+  font-family: "Libre Baskerville", serif;
 }
 
 /* .footer-h1 {

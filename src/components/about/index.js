@@ -4,14 +4,8 @@ import React from "react";
 function About() {
   return (
     <section className="about">
-      {/* <h1 className="about-h1"> About </h1> */}
-      {/* <div className="about-img-div">
-        <img
-          className="about-img"
-          src="./unnamed-1.png"
-          alt="pic of ugly guy"
-        ></img>
-      </div> */}
+      <h1 className="about-h1"> About Me </h1>
+
       <div className="about-text">
         <p>
           Meticulous and multidimensional Full Stack Web Developer with a focus
