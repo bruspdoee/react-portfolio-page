@@ -11,7 +11,7 @@ function Intro() {
       <div className="intro-text">
         <p className="intro-p anim-typewriter2">
           {" "}
-          Making Technology Comprehensible
+          Making Technology Comprehensible .
         </p>
       </div>
     </section>

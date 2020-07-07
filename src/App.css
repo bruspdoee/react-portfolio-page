@@ -300,6 +300,9 @@ html {
     padding-right: 600px;
     padding-left: 30px;
   }
+  .about-h1 {
+    font-size: 100px;
+  }
 }
 
 /* Laptop*/
@@ -310,6 +313,9 @@ html {
     padding-right: 900px;
     padding-left: 30px;
   }
+  .about-h1 {
+    font-size: 100px;
+  }
 }
 
 @media screen and (min-width: 1304px) {
@@ -317,6 +323,20 @@ html {
     font-size: 25px;
     padding-right: 900px;
     padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .about-text {
+    font-size: 25px;
+    padding-right: 1100px;
+    padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
   }
 }
 
@@ -328,13 +348,19 @@ html {
     padding-right: 1400px;
     padding-left: 30px;
   }
+  .about-h1 {
+    font-size: 100px;
+  }
 }
 
 @media screen and (min-width: 2000px) {
   .about-text {
     font-size: 30px;
-    padding-right: 1500px;
+    padding-right: 1800px;
     padding-left: 30px;
+  }
+  .about-h1 {
+    font-size: 100px;
   }
 }
 
@@ -354,7 +380,7 @@ html {
   padding-top: 50px;
 }
 
-.title {
+.title-h1 {
   padding-left: 25px;
   font-family: "Libre Baskerville", serif;
   font-size: 60px;
