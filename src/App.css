@@ -10,21 +10,31 @@ html {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 10px;
+  right: 5px;
   z-index: 99;
-  font-size: 18px;
   border: none;
   outline: none;
-  background-color: gray;
   color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 2px;
 }
 
-#myBtn:hover {
-  background-color: #555;
+.up-button {
+  height: 70px;
+  width: 70px;
+}
+
+.up-button:hover {
+  width: 90px;
+  height: 90px;
+  -webkit-transition-property: height, width;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: height, width;
+  -moz-transition-duration: 1s;
+  transition-property: height, width;
+  transition-duration: 1s;
 }
 
 .grid {
@@ -98,6 +108,31 @@ html {
   top: 0;
   left: 0;
   font-family: "Libre Baskerville", serif;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgb(79, 186, 111);
+}
+
+.anim-typewriter {
+  animation: typewriter 2s steps(30) 1s 1 normal both,
+    blinkTextCursor 550ms steps(30) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: white transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .intro-h2 {
@@ -109,6 +144,31 @@ html {
   top: 50px;
   left: 0px;
   font-family: "Libre Baskerville", serif;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgb(79, 186, 111);
+}
+
+.anim-typewriter1 {
+  animation: typewriters 2s steps(30) 1s 1 normal both,
+    blinkTextCursor 550ms steps(30) infinite normal;
+}
+@keyframes typewriters {
+  from {
+    width: 0;
+  }
+  to {
+    width: 12em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: white transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .intro-text {
@@ -121,9 +181,63 @@ html {
   font-family: "Libre Baskerville", serif;
 }
 
+.intro-p {
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgb(79, 186, 111);
+}
+
+.anim-typewriter2 {
+  animation: typewriterss 2s steps(30) 1s 1 normal both,
+    blinkTextCursor 550ms steps(30) infinite normal;
+}
+@keyframes typewriterss {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: white transparent;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 @media screen and (max-width: 736px) {
   .intro-text {
     font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro-h1 {
+    font-size: 50px;
+  }
+  .intro-h2 {
+    font-size: 30px;
+    top: 60px;
+  }
+  .intro-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro-h1 {
+    font-size: 80px;
+  }
+  .intro-h2 {
+    font-size: 40px;
+    top: 90px;
+  }
+  .intro-text {
+    font-size: 30px;
   }
 }
 
@@ -374,6 +488,17 @@ html {
   opacity: 70%;
 }
 
+.social-icons:hover {
+  width: 80px;
+  height: 80px;
+  -webkit-transition-property: height, width;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: height, width;
+  -moz-transition-duration: 1s;
+  transition-property: height, width;
+  transition-duration: 1s;
+}
+
 .row {
   justify-content: space-between;
   padding-right: 20px;
@@ -388,11 +513,3 @@ html {
   opacity: 70%;
   font-family: "Libre Baskerville", serif;
 }
-
-/* .footer-h1 {
-      color: white;
-      opacity: 70%;
-      text-align: center;
-      font-weight: 300;
-      font-size: 25px;
-    } */
