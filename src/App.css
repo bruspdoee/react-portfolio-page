@@ -319,7 +319,6 @@ html {
 
 .project-desc {
   color: white;
-  width: 50%;
   margin: 0 auto;
 }
 
@@ -600,6 +599,9 @@ html {
   .skills-h1 {
     font-size: 100px;
   }
+  .project-desc {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1800px) {
@@ -617,6 +619,9 @@ html {
   }
   .skills-h1 {
     font-size: 100px;
+  }
+  .project-desc {
+    width: 50%;
   }
 }
 
@@ -638,6 +643,9 @@ html {
   .skills-h1 {
     font-size: 100px;
   }
+  .project-desc {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -654,5 +662,8 @@ html {
   }
   .skills-h1 {
     font-size: 100px;
+  }
+  .project-desc {
+    width: 50%;
   }
 }
