@@ -36,7 +36,17 @@ function Skills() {
         </div>
         <div className="grid-iteM">
           <h5 className="skill-title">JSX</h5>
-          <img className="skill-logo" src="../skills/react.png" alt=""></img>
+          <img
+            className="skill-logo"
+            src="../skills/jsx.png"
+            style={{
+              paddingBottom: "10px",
+              paddingTop: "15px",
+              paddingRight: "12px",
+              paddingLeft: "12px",
+            }}
+            alt=""
+          ></img>
         </div>
         <div className="grid-iteM">
           <h5 className="skill-title">Node</h5>

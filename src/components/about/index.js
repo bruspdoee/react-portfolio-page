@@ -15,12 +15,12 @@ function About() {
           a strong set of communication, influencing and problem-solving skills.
         </p>
         <p>
-          Ever since I embarked on this journey to become a Software Developer
-          and writing my first program in JavaScript, I have been impassioned
-          with the idea of talking to a computer to solve practical problems.
-          From my days in recruitment, I learned that Software Engineering is a
-          never-ending puzzle that has the power to transform and improve the
-          lives of people all around the world in many different capacities.
+          Since embarking on this journey to become a Software Developer and
+          writing my first program in JavaScript, I have become impassioned with
+          coding as a means in solving practical problems. From my days in
+          recruitment, I’ve learned that Software Engineering is a never-ending
+          puzzle that has the power to transform and improve the lives of people
+          all around the world in all types of capacities.{" "}
         </p>
         <p>
           I bring to the table the relentless drive and work ethic of a 4-year

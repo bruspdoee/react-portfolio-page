@@ -319,6 +319,8 @@ html {
 
 .project-desc {
   color: white;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .icon-row {
@@ -395,8 +397,8 @@ html {
 
 @media screen and (min-width: 1920px) {
   .beastmode {
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 700px;
+    max-height: 700px;
   }
 }
 
@@ -464,6 +466,12 @@ html {
   margin: 0 auto;
   width: 50px;
 }
+
+.jsx {
+  height: 50px;
+  width: 50px;
+}
+
 .skill-logo {
   width: 200px;
   height: 200px;
