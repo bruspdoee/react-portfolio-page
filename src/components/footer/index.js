@@ -46,7 +46,7 @@ function Footer() {
           <a
             className="social-icon"
             href={
-              "https://docs.google.com/document/d/1nyjAwMmrW1fJwQFrQSro9bm1DiXPNUfml0RMUrb82kY/edit?usp=sharing"
+              "https://drive.google.com/file/d/137DJotT3G_dVLaOD1tFJLY2KzyUi1oxG/view"
             }
             target={"_blank"}
             alt={"resume logo"}
