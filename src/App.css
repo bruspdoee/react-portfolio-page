@@ -330,7 +330,7 @@ html {
   height: 50px;
   width: 50px;
   padding-right: 20px;
-  opacity: 70%;
+  /* opacity: 70%; */
 }
 
 @media screen and (min-width: 320px) {
@@ -411,7 +411,7 @@ html {
   height: 65px;
   width: 65px;
   padding-right: 20px;
-  opacity: 70%;
+  /* opacity: 70%; */
 }
 
 .social-icons:hover {
@@ -437,7 +437,7 @@ html {
   color: white;
   text-align: center;
   padding-top: 25px;
-  opacity: 70%;
+  /* opacity: 70%; */
   font-family: "Libre Baskerville", serif;
 }
 
@@ -484,7 +484,7 @@ html {
 
 .skill-logo:hover {
   background: rgb(79, 186, 111);
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .skill-title {
